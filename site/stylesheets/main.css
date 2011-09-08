@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'BoopeeRegular';
+    src: url('../fonts/boopee-webfont.eot');
+    src: url('../fonts/boopee-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/boopee-webfont.woff') format('woff'),
+         url('../fonts/boopee-webfont.ttf') format('truetype'),
+         url('../fonts/boopee-webfont.svg#BoopeeRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { font-family: Tahoma, sans-serif; }
+#product-highlights h2,
+#search h2,
+#login h2,
+#basket h2,
+#basket .links { font-family: 'BoopeeRegular', Textile, cursive; }
