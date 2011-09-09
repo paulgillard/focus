@@ -20,7 +20,10 @@ body { font-family: Tahoma, sans-serif; font-size: 50%; }
 #basket .links { font-size: 1.8em; }
 #basket .links a { color: #000000; }
 h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
-#header-wrapper { background: url("../images/grey_square_dotted_line.png") repeat-x scroll center bottom transparent; float: left; }
+#header-wrapper,
+#footer-wrapper { background: url("../images/grey_square_dotted_line.png") repeat-x scroll 0 0 transparent; float: left; }
+#header-wrapper { background-position: center bottom; }
+#footer-wrapper { background-position: center top; }
 #header { height: 110px; }
 #sustrans-logo { margin: 33px 0 0 16px; }
 #content-wrapper { background-color: #e6efac; float: left; margin: 3px 0; }
