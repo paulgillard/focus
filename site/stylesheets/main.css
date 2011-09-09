@@ -36,6 +36,24 @@ h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
 #main-menu li.newsletter a { background: url("../images/newsletter_icon.png") no-repeat scroll center top transparent; }
 #main-menu li.support a { background: url("../images/support_icon.png") no-repeat scroll center top transparent; }
 #main-content h1 { font-size: 1.5em; }
+
+/* Backgrounds */
+
+#main-content { background: url("../images/wide_background_top.png") no-repeat scroll 0 0 transparent; margin-top: 16px; width: 642px; /*638 + 4 pixels of shadow on right*/ }
+#search,
+#login,
+#basket,
+#product-highlights { background: url("../images/narrow_background_top.png") no-repeat scroll 0 0 transparent; width: 206px; /*202 + 4 pixels of shadow on right*/ }
+#main-content,
+#product-highlights { margin-top: 8px; }
+#search,
+#login,
+#basket { margin-top: 16px; }
+#search,
+#login { margin-right: 4px; /*8 - 4 pixels of shadow*/ }
+#basket { margin-right: -4px; /*0 - 4 pixels of shadow*/ }
+#product-highlights { margin-right: 4px; /*8 - 4 pixels of shadow*/  }
+
 #shopping-categories { text-transform: lowercase; }
 #footer { font-size: 1.2em; }
 .products h3 { font-weight: normal; font-size: 1em; }
