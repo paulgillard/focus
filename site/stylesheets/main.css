@@ -19,10 +19,11 @@ body { font-family: Tahoma, sans-serif; font-size: 50%; }
 #main-menu a { color: #000000; text-transform: lowercase; }
 #basket .links { font-size: 1.8em; }
 #basket .links a { color: #000000; }
-
 h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
-#header { background: url("../images/grey_square_dotted_line.png") repeat-x scroll center bottom transparent; height: 110px; }
+#header-wrapper { background: url("../images/grey_square_dotted_line.png") repeat-x scroll center bottom transparent; float: left; }
+#header { height: 110px; }
 #sustrans-logo { margin: 33px 0 0 16px; }
+#content-wrapper { background-color: #e6efac; float: left; margin: 3px 0; }
 #main-menu ul { background: url("../images/main_menu_background.png"); float: left; font-size: 1.1em; height: 90px; /*98 - 8*/ margin: 0; padding: 8px 0 0 86px; width: 552px; /*638 - 86*/ }
 #main-menu li { display: inline; veri }
 #main-menu li a { float: left; padding: 25px 15px 0 15px; }

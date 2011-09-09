@@ -10,123 +10,127 @@
   </head>
   <body>
     <div id="container" class="container_4">
-      <div id="header" class="grid_4">
-        <a class="grid_1 alpha" href="/" title="Sustrans Shop Home Page">
-          <img id="sustrans-logo" src="images/logo.png" alt="Sustrans - Join the movement" />
-        </a>
-        <div id="main-menu" class="grid_3 omega">
-          <ul>
-            <li class="contact"><a href="contact.html">Contact Us</a></li>
-            <li class="support-sustrans"><a href="support_sustrans.html">Support Sustrans</a></li>
-            <li class="request-catalogue"><a href="request_catalogue.html">Request a Catalogue</a></li>
-            <li class="newsletter"><a href="newsletter.html">Sign up for News</a></li>
-            <li class="support"><a href="support.html">Help and FAQ's</a></li>
-          </ul>
+      <div id="header-wrapper">
+        <div id="header" class="grid_4">
+          <a class="grid_1 alpha" href="/" title="Sustrans Shop Home Page">
+            <img id="sustrans-logo" src="images/logo.png" alt="Sustrans - Join the movement" />
+          </a>
+          <div id="main-menu" class="grid_3 omega">
+            <ul>
+              <li class="contact"><a href="contact.html">Contact Us</a></li>
+              <li class="support-sustrans"><a href="support_sustrans.html">Support Sustrans</a></li>
+              <li class="request-catalogue"><a href="request_catalogue.html">Request a Catalogue</a></li>
+              <li class="newsletter"><a href="newsletter.html">Sign up for News</a></li>
+              <li class="support"><a href="support.html">Help and FAQ's</a></li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="clear"></div>
-      <div id="content-wrapper" class="grid_3">
-        <div id="main-content" class="grid_3 alpha omega">
-          <h1>Get Out and About!</h1>
-          <p>Hello - we are <a class="sustrans-site" href="http://www.sustrans.org.uk">Sustrans</a> - the UK's leading sustainable transport charity and this is our online shop!</p>
-          <p>We've got lots of products to help you get out and about, enjoying the fantastic countryside throughout the UK or seeing bits of towns and cities you'd never see from behind the wheel.</p>
-          <p><a href="shopping.html">Start your shopping</a> by choosing one of our product categories below.</p>
-          <ul id="shopping-categories">
-            <li>
-              <h3>Walking and Cycling</h3>
-              <p>Helping you make the most of the great outdoors</p>
-              <a href="walking_and_cycling_range.html">See the range</a>
-            </li>
-            <li>
-              <h3>Kids</h3>
-              <p>A special section for those with little legs!</p>
-              <a href="kids_range.html">Find out more</a>
-            </li>
-            <li>
-              <h3>Clothing</h3>
-              <p>Wide range of clothes for men, women and children</p>
-              <a href="clothing_range.html">See all clothes</a>
-            </li>
-            <li>
-              <h3>The environment</h3>
-              <p>Eco-friendly products for organic and sustainable living!</p>
-              <a href="environment_range.html">View the range</a>
-            </li>
-          </ul>
+      <div id="content-wrapper">
+        <div id="left-wrapper" class="grid_3">
+          <div id="main-content" class="grid_3 alpha omega">
+            <h1>Get Out and About!</h1>
+            <p>Hello - we are <a class="sustrans-site" href="http://www.sustrans.org.uk">Sustrans</a> - the UK's leading sustainable transport charity and this is our online shop!</p>
+            <p>We've got lots of products to help you get out and about, enjoying the fantastic countryside throughout the UK or seeing bits of towns and cities you'd never see from behind the wheel.</p>
+            <p><a href="shopping.html">Start your shopping</a> by choosing one of our product categories below.</p>
+            <ul id="shopping-categories">
+              <li>
+                <h3>Walking and Cycling</h3>
+                <p>Helping you make the most of the great outdoors</p>
+                <a href="walking_and_cycling_range.html">See the range</a>
+              </li>
+              <li>
+                <h3>Kids</h3>
+                <p>A special section for those with little legs!</p>
+                <a href="kids_range.html">Find out more</a>
+              </li>
+              <li>
+                <h3>Clothing</h3>
+                <p>Wide range of clothes for men, women and children</p>
+                <a href="clothing_range.html">See all clothes</a>
+              </li>
+              <li>
+                <h3>The environment</h3>
+                <p>Eco-friendly products for organic and sustainable living!</p>
+                <a href="environment_range.html">View the range</a>
+              </li>
+            </ul>
+          </div>
+          <div class="clear"></div>
+          <div id="search" class="grid_1 alpha">
+            <h2>Find Stuff!</h2>
+            <p>Enter keywords below to find stuff in our store!</p>
+            <form action="search.html">
+              <input type="text" />
+              <input type="submit" value="find!" />
+            </form>
+            <p>Can't find things? Try and <a href="advanced_search.html">advanced search</a>.</p>
+          </div>
+          <div id="login" class="grid_1">
+            <h2>Customer Login</h2>
+            <p>Use your access details to login to your account below:</p>
+            <form action="login.html">
+              <input name="email" type="text" />
+              <input name="password" type="password" />
+              <input type="submit" value="login" />
+            </form>
+            <p>No password? No worries - <a href="forgotten_password.html">use our reminder</a>.</p>
+          </div>
+          <div id="basket" class="grid_1 omega">
+            <h2>Your Basket</h2>
+            <p>is disappointingly empty!</p>
+            <span class="count">0 items</span>
+            <span class="total">Total cost: <span class="value">£0.00</span></span>
+            <ul class="links">
+              <li><a href="basket-detail.html">view details</a></li>
+              <li><a href="checkout.html">checkout</a></li>
+            </ul>
+          </div>
         </div>
-        <div class="clear"></div>
-        <div id="search" class="grid_1 alpha">
-          <h2>Find Stuff!</h2>
-          <p>Enter keywords below to find stuff in our store!</p>
-          <form action="search.html">
-            <input type="text" />
-            <input type="submit" value="find!" />
-          </form>
-          <p>Can't find things? Try and <a href="advanced_search.html">advanced search</a>.</p>
-        </div>
-        <div id="login" class="grid_1">
-          <h2>Customer Login</h2>
-          <p>Use your access details to login to your account below:</p>
-          <form action="login.html">
-            <input name="email" type="text" />
-            <input name="password" type="password" />
-            <input type="submit" value="login" />
-          </form>
-          <p>No password? No worries - <a href="forgotten_password.html">use our reminder</a>.</p>
-        </div>
-        <div id="basket" class="grid_1 omega">
-          <h2>Your Basket</h2>
-          <p>is disappointingly empty!</p>
-          <span class="count">0 items</span>
-          <span class="total">Total cost: <span class="value">£0.00</span></span>
-          <ul class="links">
-            <li><a href="basket-detail.html">view details</a></li>
-            <li><a href="checkout.html">checkout</a></li>
-          </ul>
-        </div>
-      </div>
-      <div id="product-highlights" class="grid_1">
-        <div id="new-products">
-          <h2>Fresh Stuff!</h2>
-          <p>All the items below are fresh to our store in the last month:</p>
-          <ul class="products">
-            <li>
-              <h3>Kids Chopper T-shirt</h3>
-              <img src="images/kids_chopper_tshirt.jpg" />
-              <span class="price">£8.99</span>
-              <span class="details"><a href="kids_chopper_tshirt_details.html">Full Details</a></span>
-            </li>
-            <li>
-              <h3>Bike Bell</h3>
-              <img src="images/bike_bell.jpg" />
-              <span class="price">£2.99</span>
-              <span class="details"><a href="bike_bell_details.html">Full Details</a></span>
-            </li>
-            <li>
-              <h3>Book - City Cycling</h3>
-              <img src="images/book_city_cycling.jpg" />
-              <span class="price">£15.99</span>
-              <span class="details"><a href="book_city_cycling_details.html">Full Details</a></span>
-            </li>
-          </ul>
-        </div>
-        <div id="best-selling-products">
-          <h2>Best Sellers!</h2>
-          <p>You seem to like these, they're flying out the door!</p>
-          <ul class="products">
-            <li>
-              <h3>Kids Chopper T-shirt</h3>
-              <img src="images/kids_chopper_tshirt.jpg" />
-              <span class="price">£8.99</span>
-              <span class="details"><a href="kids_chopper_tshirt_details.html">Full Details</a></span>
-            </li>
-            <li>
-              <h3>Bike Bell</h3>
-              <img src="images/bike_bell.jpg" />
-              <span class="price">£2.99</span>
-              <span class="details"><a href="bike_bell_details.html">Full Details</a></span>
-            </li>
-          </ul>
+        <div id="product-highlights" class="grid_1">
+          <div id="new-products">
+            <h2>Fresh Stuff!</h2>
+            <p>All the items below are fresh to our store in the last month:</p>
+            <ul class="products">
+              <li>
+                <h3>Kids Chopper T-shirt</h3>
+                <img src="images/kids_chopper_tshirt.jpg" />
+                <span class="price">£8.99</span>
+                <span class="details"><a href="kids_chopper_tshirt_details.html">Full Details</a></span>
+              </li>
+              <li>
+                <h3>Bike Bell</h3>
+                <img src="images/bike_bell.jpg" />
+                <span class="price">£2.99</span>
+                <span class="details"><a href="bike_bell_details.html">Full Details</a></span>
+              </li>
+              <li>
+                <h3>Book - City Cycling</h3>
+                <img src="images/book_city_cycling.jpg" />
+                <span class="price">£15.99</span>
+                <span class="details"><a href="book_city_cycling_details.html">Full Details</a></span>
+              </li>
+            </ul>
+          </div>
+          <div id="best-selling-products">
+            <h2>Best Sellers!</h2>
+            <p>You seem to like these, they're flying out the door!</p>
+            <ul class="products">
+              <li>
+                <h3>Kids Chopper T-shirt</h3>
+                <img src="images/kids_chopper_tshirt.jpg" />
+                <span class="price">£8.99</span>
+                <span class="details"><a href="kids_chopper_tshirt_details.html">Full Details</a></span>
+              </li>
+              <li>
+                <h3>Bike Bell</h3>
+                <img src="images/bike_bell.jpg" />
+                <span class="price">£2.99</span>
+                <span class="details"><a href="bike_bell_details.html">Full Details</a></span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
       <div class="clear"></div>
