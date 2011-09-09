@@ -39,17 +39,17 @@ h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
 
 /* Backgrounds */
 
-#main-content { background: url("../images/wide_background_top.png") no-repeat scroll 0 0 transparent; margin-top: 16px; width: 642px; /*638 + 4 pixels of shadow on right*/ }
+#main-content { background: url("../images/wide_background_top.png") no-repeat scroll 0 0 transparent; margin-top: 16px; }
 #search,
 #login,
 #basket,
-#product-highlights { background: url("../images/narrow_background_top.png") no-repeat scroll 0 0 transparent; width: 206px; /*202 + 4 pixels of shadow on right*/ }
-#main-content .inner { background: url("../images/wide_background_bottom.png") no-repeat scroll left bottom transparent; }
+#product-highlights { background: url("../images/narrow_background_top.png") no-repeat scroll 0 0 transparent; }
+#main-content .inner { background: url("../images/wide_background_bottom.png") no-repeat scroll left bottom transparent; width: 622px; /*638 - 8 pixels padding left and right*/ }
 #search .inner,
 #login .inner,
 #basket .inner,
-#product-highlights .inner { background: url("../images/narrow_background_bottom.png") no-repeat scroll left bottom transparent; }
-.inner { float: left; width: 100%; }
+#product-highlights .inner { background: url("../images/narrow_background_bottom.png") no-repeat scroll left bottom transparent; width: 186px; /*202 - 8 pixels padding left and right*/ }
+.inner { float: left; }
 #main-content,
 #product-highlights { margin-top: 8px; }
 #search,
@@ -59,6 +59,14 @@ h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
 #login { margin-right: 4px; /*8 - 4 pixels of shadow*/ }
 #basket { margin-right: -4px; /*0 - 4 pixels of shadow*/ }
 #product-highlights { margin-right: 4px; /*8 - 4 pixels of shadow*/  }
+#main-content,
+#product-highlights,
+#search,
+#login,
+#basket { padding-right: 4px; /*4 pixels of shadow*/}
+
+/* Generic Section Styling */
+.inner { padding: 8px; }
 
 #shopping-categories { text-transform: lowercase; }
 #footer { font-size: 1.2em; }
