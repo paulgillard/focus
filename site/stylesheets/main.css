@@ -9,9 +9,24 @@
     font-style: normal;
 }
 
-body { font-family: Tahoma, sans-serif; }
+html { font-size: 125%; }
+body { font-family: Tahoma, sans-serif; font-size: 50%; }
 #product-highlights h2,
 #search h2,
 #login h2,
 #basket h2,
 #basket .links { font-family: 'BoopeeRegular', Textile, cursive; }
+#main-menu a { color: #000000; text-transform: lowercase; }
+#basket .links { font-size: 1.8em; }
+#basket .links a { color: #000000; }
+
+h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
+#main-content h2 { font-size: 1.5em; }
+#shopping-categories { text-transform: lowercase; }
+#footer { font-size: 1.2em; }
+.products h3 { font-weight: normal; font-size: 1em; }
+.products .price { color: #648f3f; }
+.products .details,
+.products .price { color: #648f3f; display: block; }
+a { text-decoration: none; }
+a.sustrans-site { font-weight: bold; }
