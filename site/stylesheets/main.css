@@ -21,7 +21,16 @@ body { font-family: Tahoma, sans-serif; font-size: 50%; }
 #basket .links a { color: #000000; }
 
 h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
-#main-menu { padding: 0; }
+#header { background: url("../images/grey_square_dotted_line.png") repeat-x scroll center bottom transparent; height: 110px; }
+#sustrans-logo { margin: 33px 0 0 16px; }
+#main-menu ul { background: url("../images/main_menu_background.png"); float: left; font-size: 1.1em; height: 90px; /*98 - 8*/ margin: 0; padding: 8px 0 0 86px; width: 552px; /*638 - 86*/ }
+#main-menu li { display: inline; veri }
+#main-menu li a { float: left; padding: 25px 15px 0 15px; }
+#main-menu li.contact a { background: url("../images/contact_us_icon.png") no-repeat scroll center top transparent; }
+#main-menu li.support-sustrans a { background: url("../images/support_sustrans_icon.png") no-repeat scroll center top transparent; }
+#main-menu li.request-catalogue a { background: url("../images/request_catalogue_icon.png") no-repeat scroll center top transparent; }
+#main-menu li.newsletter a { background: url("../images/newsletter_icon.png") no-repeat scroll center top transparent; }
+#main-menu li.support a { background: url("../images/support_icon.png") no-repeat scroll center top transparent; }
 #main-content h1 { font-size: 1.5em; }
 #shopping-categories { text-transform: lowercase; }
 #footer { font-size: 1.2em; }
