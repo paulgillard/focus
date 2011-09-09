@@ -44,6 +44,12 @@ h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
 #login,
 #basket,
 #product-highlights { background: url("../images/narrow_background_top.png") no-repeat scroll 0 0 transparent; width: 206px; /*202 + 4 pixels of shadow on right*/ }
+#main-content .inner { background: url("../images/wide_background_bottom.png") no-repeat scroll left bottom transparent; }
+#search .inner,
+#login .inner,
+#basket .inner,
+#product-highlights .inner { background: url("../images/narrow_background_bottom.png") no-repeat scroll left bottom transparent; }
+.inner { float: left; width: 100%; }
 #main-content,
 #product-highlights { margin-top: 8px; }
 #search,
