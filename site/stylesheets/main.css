@@ -21,7 +21,7 @@ body { font-family: Tahoma, sans-serif; font-size: 50%; }
 #basket .links a { color: #000000; }
 h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
 #header-wrapper,
-#footer-wrapper { background: url("../images/grey_square_dotted_line.png") repeat-x scroll 0 0 transparent; float: left; }
+#footer-wrapper { background: url("../images/grey_square_dotted_horizonal_line.png") repeat-x scroll 0 0 transparent; float: left; }
 #header-wrapper { background-position: center bottom; }
 #footer-wrapper { background-position: center top; }
 #header { height: 110px; }
