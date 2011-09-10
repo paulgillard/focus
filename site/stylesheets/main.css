@@ -93,6 +93,11 @@ img.icon { left: 9px; position: absolute; }
 #product-highlights img.product { float: left; margin-right: 10px; }
 #product-highlights ul h3 { margin: 0; }
 
+/* Small Section Styling */
+#search h2,
+#login h2,
+#basket h2 { margin: 0 0 0 42px; }
+
 #footer { font-size: 1.2em; }
 .products h3 { font-weight: normal; font-size: 1em; }
 .products .price { color: #648f3f; }
