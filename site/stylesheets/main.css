@@ -53,7 +53,7 @@ h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
 #product-highlights { margin-top: 8px; }
 #search,
 #login,
-#basket { margin-top: 16px; }
+#basket { margin-top: 11px; }
 #search,
 #login { margin-right: 4px; /*8 - 4 pixels of shadow*/ }
 #basket { margin-right: -4px; /*0 - 4 pixels of shadow*/ }
