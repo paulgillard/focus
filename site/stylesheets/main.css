@@ -66,11 +66,11 @@ h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
 
 /* Generic Section Styling */
 .inner { padding: 8px 12px 8px 8px; }
+img.icon { left: 9px; position: absolute; }
 
 /* Main Content Styling */
 #main-content .inner { padding-bottom: 25px; }
 #main-content .wrapper { padding: 0 175px 25px 63px; width: 400px; /*638 - 63 pixels left padding - 175 right padding*/ }
-img#sun-icon { left: 9px; position: absolute; }
 #main-content h1 { font-size: 1.5em; font-weight: normal; text-transform: lowercase; }
 #shopping-categories { background: url("../images/grey_square_dotted_horizonal_line.png") repeat-x scroll left top transparent; list-style-type: none; float: left; padding: 1px 0 0 0; margin: 0 11px; text-transform: lowercase; }
 #shopping-categories li { background: url("../images/grey_square_dotted_vertical_line.png") repeat-y scroll 0 0 transparent; float: left;  padding: 0 0 0 1px; width: 149px; }
@@ -83,6 +83,15 @@ img#sun-icon { left: 9px; position: absolute; }
 #shopping-categories li.environment h3 { background-image: url("../images/green_leaves_environment_icon.png"); }
 #shopping-categories li .wrapper { margin: 65px 6px 0 6px; padding: 0; width: auto; }
 #shopping-categories li .details { margin-left: 5px; }
+
+/* Product Highlights Styling */
+#product-highlights .wrapper { float: left; margin: 8px 0; padding: 0 0 0 10px; }
+#product-highlights #new-products h2 { margin: 11px 0 0 34px; }
+#product-highlights #best-selling-products h2 { margin: 15px 0 0 34px; }
+#product-highlights ul.products { margin: 0; padding: 0; }
+#product-highlights ul.products li { list-style-type: none; margin: 8px 0; }
+#product-highlights img.product { float: left; margin-right: 10px; }
+#product-highlights ul h3 { margin: 0; }
 
 #footer { font-size: 1.2em; }
 .products h3 { font-weight: normal; font-size: 1em; }
