@@ -77,9 +77,14 @@
               <h2>Find Stuff!</h2>
               <p>Enter keywords below to find stuff in our store!</p>
               <form action="search.html">
-                <input type="text" />
-                <input type="submit" value="find!" />
+                <div class="input-wrapper no-label">
+                  <input type="text" />
+                </div>
+                <div class="input-wrapper">
+                  <input type="submit" value="find!" />
+                </div>
               </form>
+              <div class="clear"></div>
               <p>Can't find things? Try and <a href="advanced_search.html">advanced search</a>.</p>
             </div>
           </div>
@@ -89,10 +94,19 @@
               <h2>Customer Login</h2>
               <p>Use your access details to login to your account below:</p>
               <form action="login.html">
-                <input name="email" type="text" />
-                <input name="password" type="password" />
-                <input type="submit" value="login" />
+                <div class="input-wrapper">
+                  <label for="login-email">email:</label>
+                  <input id="login-email" name="email" type="text" />
+                </div>
+                <div class="input-wrapper">
+                  <label for="login-password">password:</label>
+                  <input id="login-password" name="password" type="password" />
+                </div>
+                <div class="input-wrapper">
+                  <input type="submit" value="login" />
+                </div>
               </form>
+              <div class="clear"></div>
               <p>No password? No worries - <a href="forgotten_password.html">use our reminder</a>.</p>
             </div>
           </div>
