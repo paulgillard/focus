@@ -94,11 +94,12 @@ img.icon { left: 9px; position: absolute; }
 #product-highlights ul h3 { margin: 0; }
 
 /* Small Section Styling */
+#search .inner,
+#login .inner,
+#basket .inner { min-height: 180px; }
 #search h2,
 #login h2,
 #basket h2 { margin: 0 0 0 42px; }
-
-/* Search Section Styling */
 form { width: 186px; }
 form .input-wrapper { float: left; clear: both; margin: 2px 0; width: 186px; }
 label { margin-top: 2px; width: 60px; }
@@ -107,6 +108,11 @@ input[type=text] { width: 120px; }
 input, label { float: left; }
 .input-wrapper.no-label input { width: 180px; /*186 - 3px border left and right */ }
 input[type=submit] { float: right; margin: 2px 0 0 0; }
+
+/* Basket Section Styling */
+#basket .wrapper { padding-left: 40px; margin-bottom: 24px; }
+#basket .total .value { color: #ca5327; }
+#basket .links { margin: 0; position: absolute; bottom: 8px; right: 12px; text-align: right; }
 
 #footer { font-size: 1.2em; }
 .products h3 { font-weight: normal; font-size: 1em; }
