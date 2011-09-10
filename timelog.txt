@@ -11,4 +11,9 @@ End: 23:00
 Friday 9th
 
 Start: 17:35
-End: 
+End: 21:35
+
+Saturday
+
+Start: 14:03
+End:

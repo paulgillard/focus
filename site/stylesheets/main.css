@@ -35,7 +35,6 @@ h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
 #main-menu li.request-catalogue a { background: url("../images/request_catalogue_icon.png") no-repeat scroll center top transparent; }
 #main-menu li.newsletter a { background: url("../images/newsletter_icon.png") no-repeat scroll center top transparent; }
 #main-menu li.support a { background: url("../images/support_icon.png") no-repeat scroll center top transparent; }
-#main-content h1 { font-size: 1.5em; }
 
 /* Backgrounds */
 
@@ -68,7 +67,23 @@ h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
 /* Generic Section Styling */
 .inner { padding: 8px; }
 
-#shopping-categories { text-transform: lowercase; }
+/* Main Content Styling */
+#main-content .inner { padding-bottom: 25px; }
+#main-content .wrapper { padding: 0 175px 25px 63px; width: 400px; /*638 - 63 pixels left padding - 175 right padding*/ }
+img#sun-icon { left: 9px; position: absolute; }
+#main-content h1 { font-size: 1.5em; font-weight: normal; text-transform: lowercase; }
+#shopping-categories { background: url("../images/grey_square_dotted_horizonal_line.png") repeat-x scroll left top transparent; list-style-type: none; float: left; padding: 1px 0 0 0; margin: 0 11px; text-transform: lowercase; }
+#shopping-categories li { background: url("../images/grey_square_dotted_vertical_line.png") repeat-y scroll 0 0 transparent; float: left;  padding: 0 0 0 1px; width: 149px; }
+#shopping-categories li:first-child { background: none; }
+#shopping-categories li h3 { height: 60px; width: 149px; background-repeat: no-repeat; position: absolute; margin: 0; }
+#shopping-categories li h3 span { position: absolute; left: -999em; }
+#shopping-categories li.walking-and-cycling h3 { background-image: url("../images/people_walking_on_beach.png"); }
+#shopping-categories li.kids h3 { background-image: url("../images/three_kids_on_chairs_icon.png"); }
+#shopping-categories li.clothing h3 { background-image: url("../images/clothes_hanger_icon.png"); }
+#shopping-categories li.environment h3 { background-image: url("../images/green_leaves_environment_icon.png"); }
+#shopping-categories li .wrapper { margin: 65px 6px 0 6px; padding: 0; width: auto; }
+#shopping-categories li .details { margin-left: 5px; }
+
 #footer { font-size: 1.2em; }
 .products h3 { font-weight: normal; font-size: 1em; }
 .products .price { color: #648f3f; }
