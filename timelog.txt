@@ -1,7 +1,7 @@
 Wednesday 7th
 
 Start: 21:09
-End: 23:04
+End: 23:04 
 
 Thursday 8th
 
@@ -19,9 +19,11 @@ Start: 14:03
 End: 16:59
 
 Start: 19:15
-End:
+End: 19:25
 
 Sunday 11th
 
 Start: 13:36
-End:
+End: 14:57
+
+Total: 9 hours 42 minutes
