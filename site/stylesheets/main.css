@@ -109,7 +109,7 @@ input[type=password],
 input[type=text] { width: 120px; }
 input, label { float: left; }
 .input-wrapper.no-label input { width: 180px; /*186 - 3px border left and right */ }
-input[type=submit] { float: right; margin: 2px 0 0 0; }
+input[type=submit] { background: url("../images/submit_input_background.png") no-repeat scroll 0 0 transparent; border: 0; float: right; height: 17px; margin: 2px 0 0 0; width: 42px; }
 
 /* Basket Section Styling */
 #basket .wrapper { padding-left: 40px; margin-bottom: 24px; }

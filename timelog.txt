@@ -26,4 +26,7 @@ Sunday 11th
 Start: 13:36
 End: 14:57
 
-Total: 9 hours 42 minutes
+Start: 15:25
+End: 15:40
+
+Total: 9 hours 57 minutes
