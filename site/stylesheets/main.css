@@ -20,6 +20,7 @@ body { font-family: Tahoma, sans-serif; font-size: 50%; }
 #basket .links { font-size: 1.8em; }
 #basket .links a { color: #000000; }
 h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
+h1, p { margin: 1em 0; }
 #header-wrapper,
 #footer-wrapper { background: url("../images/grey_square_dotted_horizonal_line.png") repeat-x scroll 0 0 transparent; float: left; }
 #header-wrapper { background-position: center bottom; }
@@ -27,7 +28,7 @@ h2 { font-size: 2.5em; font-weight: normal; text-transform: lowercase; }
 #header { height: 110px; }
 #sustrans-logo { margin: 33px 0 0 16px; }
 #content-wrapper { background-color: #e6efac; float: left; margin: 3px 0; }
-#main-menu ul { background: url("../images/main_menu_background.png"); float: left; font-size: 1.1em; height: 90px; /*98 - 8*/ margin: 0; padding: 8px 0 0 86px; width: 552px; /*638 - 86*/ }
+#main-menu ul { background: url("../images/main_menu_background.png") no-repeat scroll 0 0 transparent; float: left; font-size: 1.1em; height: 90px; /*98 - 8*/ margin: 0; padding: 8px 0 0 86px; width: 100%; }
 #main-menu li { display: inline; }
 #main-menu li a { float: left; padding: 25px 15px 0 15px; }
 #main-menu li.contact a { background: url("../images/contact_us_icon.png") no-repeat scroll center top transparent; }
@@ -81,7 +82,7 @@ img.icon { left: 9px; position: absolute; }
 #shopping-categories li.kids h3 { background-image: url("../images/three_kids_on_chairs_icon.png"); }
 #shopping-categories li.clothing h3 { background-image: url("../images/clothes_hanger_icon.png"); }
 #shopping-categories li.environment h3 { background-image: url("../images/green_leaves_environment_icon.png"); }
-#shopping-categories li .wrapper { margin: 65px 6px 0 6px; padding: 0; width: auto; }
+#shopping-categories li .wrapper { margin: 65px 0 0 0; padding: 0 6px; width: auto; }
 #shopping-categories li .details { margin-left: 5px; }
 
 /* Product Highlights Styling */
