@@ -93,6 +93,7 @@ img.icon { left: 9px; position: absolute; }
 #product-highlights ul.products li { list-style-type: none; margin: 8px 0; }
 #product-highlights img.product { float: left; margin-right: 10px; }
 #product-highlights ul h3 { margin: 0; }
+#product-highlights ul li { clear: both; float: left; width: 100%; }
 
 /* Small Section Styling */
 #search .inner,
